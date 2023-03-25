@@ -254,7 +254,6 @@ class LinkedList {
       return null;
     }
     let cloneList = new LinkedList();
-    q;
     let currentNode = this.head;
     while (currentNode) {
       cloneList.append(currentNode.value);
